@@ -1,81 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <style>
-        @font-face {
-            font-family: "mainfont";
-            src: url("UbuntuSansMono-Regular.ttf") format("truetype");
-            font-weight: normal;
-            font-style: normal;
-        }
-
-        html, body {
-            margin: 0;
-        }
-
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: "mainfont";
-            background-color: black;
-            color: white;
-        }
-
-        img {
-            max-width: 80%;
-            height: auto;
-        }
-
-        .teh-space {
-            height: 9rem;
-        }
-
-        .teh-lil-space {
-            height: 2rem;
-        }
-
-        .border {
-            border: 4px solid white;
-            border-radius: 12px;
-        }
-
-        a {
-            color: white;
-            text-decoration: underline;
-            text-decoration-color: white;
-        }
-
-        body {
-            background-image: url('assets/imgs/space_bg.png');
-        }
-    </style>
-
-    <title>404 Not Found</title>
-    <link rel=icon href="assets/imgs/icon.png">
-    <meta property="og:title" content="404 Not Found" />
-    <meta property="og:description" content="Can't you see the tittle? 404 NOT FOUND" />
-    <meta property="og:url" content="https://arthuportalz-lang.github.io/404" />
-    <meta property="og:type" content="website" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-</head>
-    
 <body>
-    <div class="teh-space"></div>
-
-    <h1 style="font-size: 100px;">404 Not Found</h1>
-
-    <div class="teh-space"></div>
-
-    <h1 style="text-align: center;">You seem to be SOOOOOO lost...<br>infact, so lost that you are in SPACE</h1>
-    <img src="assets/imgs/space.png" alt="Spaaaaaaace">
-
-    <div class="teh-space"></div>
-
-    <a href="https://arthuportalz-lang.github.io/">Main Page</a>
-
-    <div class="teh-lil-space"></div>
+    <script>
+        if (navigator.language.startsWith("pt")) {
+            window.location.href = "../pt/404";
+        } else {
+            window.location.href = "../en/404";
+        }
+    </script>
 </body>
 </html>

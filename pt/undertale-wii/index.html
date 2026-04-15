@@ -35,6 +35,22 @@
             height: 2rem;
         }
 
+        .topbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            font-size: 200%;
+            background-color: #303030;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+
+            z-index: 1000;
+        }
+
         a {
             color: white;
             text-decoration: underline;
@@ -54,20 +70,18 @@
 </head>
     
 <body>
+    <div class="topbar">
+        <a href="https://arthuportalz-lang.github.io" class="active">INÍCIO</a>
+    </div>
+
     <div class="teh-space"></div>
 
-    <img src="../../assets/imgs/utwii-logo.png" alt="Undertale Wii" >
+    <img style="width: 50%; height: 50%;" src="../../assets/imgs/utwii-logo.png" alt="Undertale Wii" >
 
-    <div class="teh-space"></div>
-
-    <h1 style="text-align: center;">UNDERTALE! O jogo RPG em que você não precisa destruir ninguém...<br>portado para o Wii, usando o <i>incrível</i> framework 2D,<br><a href="https://github.com/HTV04/wiilove"><h1 style="font-size: 150px; text-align: center;">WiiLÖVE!!!</h1></a></h1>
+    <h1 style="text-align: center;">... o jogo RPG one você não tem que destruir ninguém...<br>portado para o Wii, usando a <i>incrível</i> framework 2D baseada em Lua,<br><a href="https://github.com/HTV04/wiilove"><h1 style="font-size: 150px; text-align: center;">WiiLÖVE!!!</h1></a></h1>
 
     <h1>Você que conferir ou testar no seu Wii?</h1>
     <a href="https://github.com/arthuportalz-lang/Undertale-Wii/releases"><h1>O último lançamento está aqui!</h1></a>
-
-    <div class="teh-space"></div>
-
-    <a href="https://arthuportalz-lang.github.io/pt/">Página Principal</a>
 
     <div class="teh-lil-space"></div>
 </body>
